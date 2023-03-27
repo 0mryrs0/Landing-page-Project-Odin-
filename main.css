@@ -116,7 +116,8 @@ header {
 /*CONTENT or members*/
 #members {
     width: 100vw;
-    height: 80vh;
+    height: auto;
+    padding: 5rem;
     display: flex;
     gap: 0 3rem;
     justify-content: center;
@@ -145,7 +146,8 @@ header {
 }
 
 #quote {
-    height: 90vh;
+    width: 100vw;
+    height: auto;
     background-image: url(jellal.jpg);
     background-position: auto;
     background-size: cover;
@@ -155,7 +157,6 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     color: aliceblue;
-
 }
 
 #quote p{
@@ -176,8 +177,9 @@ header {
 
 #contact {
     width: 100vw;
-    height: 50vh;
+    height: auto;
     color: aliceblue;
+    padding: 5rem;
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
