@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(guild.jpg);
+    background-size: cover;
+}
+
+/*NAVBAR*/
+#navbar {
+    width: 100vw;
+    height: 10vh;
+    margin-top: 10px;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(3, 6, 10, 0.541);
+}
+
+#navbar .logo-pic {
+    margin-top: 7rem;
+    width: 200px;
+    background-color: rgba(138, 15, 15, 0.541);
+    border-radius: 200px;
+    padding: 30px;
+
+} 
+
+#navbar .links {
+    width: calc(100vh - 200px);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+#navbar .links a {
+    width: 10rem;
+    text-decoration: none; 
+    color: white;
+    align-self: center;
+    padding: 1rem;
+    border-radius: 25px;
+    transition: 500ms;
+}
+
+#navbar .links a:hover {
+    background-color: rgba(74, 74, 83, 0.692);
+    border-bottom: 1px solid rgb(61, 6, 6);
+    scale: 1.01;
+}
+
+/*HERO*/
+#hero {
+    height: calc(100vh - 10vh);
+    background-color: rgba(20, 20, 73, 0.342);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+#hero .left {
+    color: aliceblue;
+    line-height: 3rem;
+    flex-shrink: 0;
+}
+
+#hero .left h1 {
+     font-size: 2.5rem;
+     font-weight: 900;
+}
+
+#hero .left span {
+    color: rgb(189, 51, 51);
+}
+
+#hero .left p {
+    font-size: 1.5rem;
+}
+
+#hero .left button{
+    width: 150px;
+    height: 50px;
+    background-color:rgb(61, 6, 6);
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#hero img {
+     width: 30rem;
+     height: auto;
+}
+
+
+/*CONTENT or members*/
+#members {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    gap: 0 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    flex-wrap: wrap;
+    background-color: rgb(61, 6, 6);
+}
+
+#members h2 {
+    margin-top: 2rem;
+    margin-bottom: none;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    align-self:flex-end;
+}
+
+#members div > img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#quote {
+    height: 90vh;
+    background-image: url(jellal.jpg);
+    background-position: auto;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: aliceblue;
+
+}
+
+#quote p{
+    width: 90%;
+    padding: 5rem;
+    margin-top: 5rem;
+    font-style: italic;
+    font-size: 3rem;
+    background-color: rgba(35, 35, 65, 0.63);
+
+}
+
+#quote h6{
+    font-size: 2rem;
+    text-align: right;
+    margin-bottom: 5rem;
+}
+
+#contact {
+    width: 100vw;
+    height: 50vh;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(61, 6, 6), black);
+}
+
+#contact .contact-text {
+    width: 50vw;
+    text-align: left;
+}
+
+#contact .contact-text h3 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+#contact button {
+    width: 5rem;
+    height: 3rem;
+    background-color: black;
+    color: aliceblue;
+}
+
+
